@@ -1,4 +1,16 @@
 # tp_aniversario
 
-Esse projeto foi criado pois meu aniversário está chegando, então gostaria de compartilhar o que eu desenvolvi em homenagem ao meu dia especial e criei através da linguagem Dart, e do framework Flutter, pois é a linguagem que estou aprendendo atualmente. 
-O padrão de programação, utilizei o MVC (Model, View, Controller) para melhor organização do código.
+A new Flutter project.
+
+## Getting Started
+
+This project is a starting point for a Flutter application.
+
+A few resources to get you started if this is your first Flutter project:
+
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
