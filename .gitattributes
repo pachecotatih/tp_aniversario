@@ -1,0 +1,10 @@
+# Ignorar arquivos gerados
+android/** linguist-vendored
+ios/** linguist-vendored
+linux/** linguist-vendored
+macos/** linguist-vendored
+windows/** linguist-vendored
+build/** linguist-vendored
+
+# Definir Dart como principal
+*.dart linguist-language=Dart
