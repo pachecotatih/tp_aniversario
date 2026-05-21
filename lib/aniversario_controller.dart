@@ -5,7 +5,7 @@ import 'package:tp_aniversario/views/aniversario_view.dart';
 import 'aniversario_model.dart';
 
 class AniversarioController {
-  verificarDataNascimento(
+  void verificarDataNascimento(
       AniversarioModel aniversariante, BuildContext context) {
     DateTime dataAniversario =
         DateFormat('dd/MM/yyyy').parse(aniversariante.dataNascimento);
@@ -28,7 +28,7 @@ class AniversarioController {
     }
   }
 
-  _calculoDias(String dataNascimento) {
+  int _calculoDias(String dataNascimento) {
     DateTime datanascimento = DateFormat('dd/MM/yyyy').parse(dataNascimento);
     DateTime dataHoje = DateTime.now();
     int diasTotais = DateTime(

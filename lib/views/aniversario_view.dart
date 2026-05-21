@@ -109,25 +109,33 @@ class _AniversarioViewState extends State<AniversarioView> {
     );
   }
 
-  funprecache() {
-    precacheImage(const AssetImage('assets/img/baloons-img.jpg'), context)
-        .then((value) {
-      try {
-        precacheImage(
-                const NetworkImage('https://i.gifer.com/TBUn.gif'), context)
-            .then((value) {
-          setState(() {
-            _isLoading = false;
-          });
-        });
-      } catch (e) {
-        precacheImage(const AssetImage('assets/img/bolo-img.png'), context)
-            .then((value) {
-          setState(() {
-            _isLoading = false;
-          });
-        });
-      }
-    });
+  Future<void> funprecache() async {
+    
+    try {
+    await precacheImage(
+      const AssetImage('assets/img/baloons-img.jpg'),
+      context,
+    );
+
+    if (!mounted) return;
+
+    await precacheImage(
+      const NetworkImage(
+        'https://i.gifer.com/TBUn.gif',
+      ),
+      context,
+    );
+  } catch (e) {
+    if (!mounted) return;
+
+    await precacheImage(
+      const AssetImage('assets/img/bolo-img.png'),
+      context,
+    );
+  }
+
+  setState(() {
+    _isLoading = false;
+  });
   }
 }
