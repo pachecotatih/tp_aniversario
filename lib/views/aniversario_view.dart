@@ -59,8 +59,8 @@ class _AniversarioViewState extends State<AniversarioView> {
                           const SizedBox(
                             height: 10,
                           ),
-                          Image.network(
-                            'https://i.gifer.com/TBUn.gif',
+                          Image.asset(
+                            'assets/img/bday-bean.gif',
                             height: 300,
                             width: 300,
                             errorBuilder: (BuildContext context,
@@ -113,16 +113,7 @@ class _AniversarioViewState extends State<AniversarioView> {
     
     try {
     await precacheImage(
-      const AssetImage('assets/img/baloons-img.jpg'),
-      context,
-    );
-
-    if (!mounted) return;
-
-    await precacheImage(
-      const NetworkImage(
-        'https://i.gifer.com/TBUn.gif',
-      ),
+      const AssetImage('assets/img/bday-bean.gif'),
       context,
     );
   } catch (e) {
