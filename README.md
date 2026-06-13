@@ -1,16 +1,28 @@
-# tp_aniversario
+# TP Aniversário
 
-A new Flutter project.
+Aplicativo Flutter para verificar aniversários. O usuário preenche o primeiro nome e a data de nascimento, e a aplicação confere se o dia e o mês coincidem com a data atual. Se for aniversário, aparece uma tela de parabenização personalizada; caso contrário, é exibido um snackbar informando quantos dias faltam.
 
-## Getting Started
+## Tecnologias usadas
 
-This project is a starting point for a Flutter application.
+- Flutter: 
+- Dart
+- Material Design
+- Android / iOS
+- Flutter Web
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Como usar
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Execute o app em um dispositivo ou emulador.
+2. Preencha o nome.
+3. Selecione a data de nascimento.
+4. Toque em enviar para ver o resultado.
+
+## Vídeo de demonstração
+
+> Adicione aqui o link ou o arquivo do vídeo quando estiver pronto.
+
+## Observações
+
+- O cálculo considera apenas dia e mês do aniversário.
+- O app mostra um snackbar com a contagem de dias restantes quando não é aniversário.
