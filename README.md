@@ -4,11 +4,11 @@ Aplicativo Flutter para verificar aniversários. O usuário preenche o primeiro 
 
 ## Tecnologias usadas
 
-- Flutter: 
-- Dart
-- Material Design
-- Android / iOS
-- Flutter Web
+- Flutter: `3.41.9` (canal `stable`)
+- Dart: `3.11.5` (instalado no sistema; `pubspec.yaml` declara `sdk: '>=2.19.4 <3.0.0'`)
+- Material Design: incluído (`uses-material-design: true`)
+- Android / iOS: iOS deployment target `11.0`; Android SDK definido pelo Flutter (compileSdk configurado pelo SDK)
+- Flutter Web: suportado (configuração via Flutter SDK)
 
 
 ## Como usar
