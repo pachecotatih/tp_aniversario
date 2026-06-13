@@ -20,7 +20,9 @@ Aplicativo Flutter para verificar aniversários. O usuário preenche o primeiro 
 
 ## Vídeo de demonstração
 
-[![Vídeo de demonstração](./assets/img/thumb-video.png)](./assets/videos/1000222262.mp4)
+<a href="https://github.com/user-attachments/assets/videos/1000222262.mp4">
+  <img src="./assets/img/thumb-video.png" width="300">
+</a>
 
 ## Observações
 
